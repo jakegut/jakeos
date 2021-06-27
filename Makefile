@@ -29,4 +29,4 @@ $(ISO_IMAGE): limine src/jakeos.elf
 
 clean:
 	rm -f $(KERNEL_HDD)
-	$(MAKE) -C src-stivale2 clean
+	$(MAKE) -C src clean
